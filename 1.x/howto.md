@@ -13,7 +13,7 @@ Download the latest version of UI Design Library [here](http://DepartmentOfComme
 
 
 ##### Resources:
-- Download CSS/LESS: Download the precompiled and minified versions of UI Design Library CSS, SVG image, and less. No documentation or original source code files are included. 
+- Download CSS: Download the precompiled versions of UI Design Library CSS. No documentation or original source code files are included. 
 - View on Github: Get the latest UI Design Library and JavaScript source code directly from GitHub. 
 
 ---
