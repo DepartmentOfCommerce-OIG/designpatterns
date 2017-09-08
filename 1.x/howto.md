@@ -2,14 +2,14 @@
 
 ### Prerequisites
 
-Before proceeding with the UI Design Library, we are assuming that you are already aware about the basics of HTML, CSS and Twitter Bootstrap. If you are not well aware of these concepts then we suggest that you go through an overview of [Bootstrap](http://getbootstrap.com/getting-started).
+Before proceeding with the UI Design Library, we are assuming that you are already aware about the basics of HTML and CSS. 
 
 ### Usage
 
 #### Download UI Design Library
-Download the latest version of UI Design Library [here](http://uspto.github.io/designpatterns/1.x/docs/resources.html).
+Download the latest version of UI Design Library [here](http://DepartmentOfCommerce-OIG.github.io/designpatterns/1.x/docs/resources.html).
 
-![download-usptostrap](https://raw.githubusercontent.com/USPTO/designpatterns/gh-pages/resources/tut-resources/ui-intro.png)
+![download-USWDS](https://raw.githubusercontent.com/DepartmentOfCommerce-OIG/designpatterns/gh-pages/resources/tut-resources/ui-intro.png)
 
 
 ##### Resources:
@@ -21,17 +21,13 @@ Download the latest version of UI Design Library [here](http://uspto.github.io/d
 #### File Structure
 If you have downloaded the UI Design Library source code then the file structure would be as follows:
 
-![file-structure](https://raw.githubusercontent.com/USPTO/designpatterns/gh-pages/resources/tut-resources/ui-file-structure.png)
+![file-structure](https://raw.githubusercontent.com/DepartmentOfCommerce-OIG/designpatterns/gh-pages/resources/tut-resources/ui-file-structure.png)
 
 ---
 
 #### What's included?
 
-**CSS:** Global CSS settings and enhanced with extensible classes with an advanced grid system. 
-
-**Images:** Fundamental SVG images for icons. 
-
-**Less:** The usptostrap.less file uses @import to merge all the LESS files at compilation time.
+**CSS:** Global CSS settings and enhanced with extensible classes with an advanced grid system.  
 
 ---
 
@@ -42,25 +38,25 @@ A basic HTML template using UI Design Library would look like this:
 <html>
 <head>
 <title>UI Design Library </title>
-<!-- USPTO Pattern Library CSS -->
-<link rel="stylesheet" type="text/css" href="css/usptostrap.min.css">
+<!-- DOC OIG Pattern Library CSS -->
+<link rel="stylesheet" type="text/css" href="#">
 </head>
 <body>
-<h1>Welcome to USPTO</h1>
+<h1>Welcome to DOC OIG</h1>
 </body>
 </html>
 ```
-#### Plugins: jQuery.js and Bootstrap.min.js
+#### Plugins: jQuery.js
 ```
 <!doctype html>
 <html>
 <head>
 <title>UI Design Library </title>
-<!-- USPTO Pattern Library CSS -->
-<link rel="stylesheet" type="text/css" href="css/usptostrap.min.css">
+<!-- DOC OIG Pattern Library CSS -->
+<link rel="stylesheet" type="text/css" href="css/uswds.css">
 </head>
 <body>
-<h1>Welcome to USPTO</h1>
+<h1>Welcome to DOC OIG</h1>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
@@ -68,23 +64,7 @@ A basic HTML template using UI Design Library would look like this:
 </body>
 </html>
 ```
-#### Third party style sheets
-All third party style sheets should be included after the UI Design Library CSS files.
-```
-<!doctype html>
-<html>
-<head>
-<title>UI Design Library </title>
-<!-- USPTO Pattern Library CSS -->
-<link rel="stylesheet" type="text/css" href="css/usptostrap.min.css">
-<!-- USPTO Global Header CSS -->
-<link rel="stylesheet" type="text/css" href="css/uspto-header-styles.min.css">
-</head>
-<body>
-<h1>Welcome to USPTO</h1>
-</body>
-</html>
-```
+
 #### Custom style sheets
 To apply additional styling to your web application, simply add the proper code to your custom-styles.css file and include that file after all style sheets. There is no need to edit any of the original UI Design Library files directly.
 ```
@@ -92,15 +72,13 @@ To apply additional styling to your web application, simply add the proper code 
 <html>
 <head>
 <title>UI Design Library </title>
-<!-- USPTO Pattern Library CSS -->
-<link rel="stylesheet" type="text/css" href="css/usptostrap.min.css">
-<!-- USPTO Global Header CSS -->
-<link rel="stylesheet" type="text/css" href="css/uspto-header-styles.min.css">
+<!-- DOC OIG Pattern Library CSS -->
+<link rel="stylesheet" type="text/css" href="css/uswds.css">
 <!-- Custom CSS -->
-<link rel="stylesheet" type="text/css" href="css/custom-styles.css">
+<link rel="stylesheet" type="text/css" href="css/styleguide.css">
 </head>
 <body>
-<h1>Welcome to USPTO</h1>
+<h1>Welcome to DOC OIG</h1>
 </body>
 </html>
 ```
