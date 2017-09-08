@@ -1,4 +1,4 @@
-## How to use the USPTO UI Design Library
+## How to use the DOC OIG UI Design Library
 
 ### Prerequisites
 
